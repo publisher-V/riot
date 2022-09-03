@@ -1,0 +1,614 @@
+@media (min-width:280px) and (max-width:360px) {
+    .inner {
+        width: 100%;
+    }
+
+    /*header section */
+    res-header {
+        display: flex;
+    }
+
+    .drawer-gnb {
+        width: 100%;
+    }
+
+    .res-modal-background {
+        display: flex;
+    }
+
+    .gnb-contianer {
+        display: none;
+    }
+
+    .gnb-sub {
+        height: 100%;
+    }
+
+    .gub-sub_lnb-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .gub-sub_lnb h3 {
+        margin: 10px 0;
+    }
+
+    .gub-sub_lnb-container ul {
+        margin: 0;
+    }
+
+    .gub-sub_lnb li a {
+        padding: 10px;
+    }
+
+    .gub-sub_lnb:last-child {
+        margin-bottom: 30px;
+    }
+
+    /* main section */
+    .main-home {
+        padding: 0;
+    }
+
+    .main-container {
+        padding: 0 20px;
+    }
+
+    .main-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .main-content a {
+        padding: 10px 30px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    /* about section */
+    .about {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .about-container {
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .about-content-locate {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .about-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .about-container p {
+        font-size: 14px;
+    }
+
+    .common-about-content-locate {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .common-about-content-locate:first-child {
+        margin-right: 0;
+    }
+
+    /*games section */
+    .riot-games {
+        padding: 20px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .riot-games h1 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .riot-games-content {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .riot-games-box {
+        width: 100%;
+    }
+
+    .val,
+    .runeterra {
+        background-position: center top;
+    }
+
+    /* contact section */
+    .riot-contact {
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .riot-contact-container {
+        flex-direction: column;
+    }
+
+    .riot-contact-text {
+        width: 100%;
+        text-align: center;
+        padding: 20px 20px 0 20px;
+        margin: 0;
+    }
+
+    .riot-contact-text h1 {
+        font-size: 1.4rem;
+    }
+
+    .riot-contact-text p {
+        font-size: 14px;
+        line-height: 2rem;
+    }
+
+    .riot-contact-text a {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .riot-contact-image {
+        width: 100%;
+    }
+
+    /* footer section */
+    footer {
+        display: none;
+    }
+
+    responsive-footer {
+        display: flex;
+        text-align: center;
+    }
+
+    .responsive-footer-container {
+        padding: 10px;
+    }
+
+    .responsive-footer-content-top {
+        flex-direction: column;
+    }
+
+    .responsive-footer-top-link-box ul li {
+        margin-right: 15px;
+    }
+
+    .responsive-footer-top-link-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+
+    .responsive-footer-top-sns {
+        margin-top: 12px;
+    }
+
+    .responsive-footer-bottom-copyright {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:361px) and (max-width:767px) {
+    .inner {
+        width: 100%;
+    }
+
+    /*header section */
+    res-header {
+        display: flex;
+    }
+
+    .drawer-gnb {
+        width: 100%;
+    }
+
+    .res-modal-background {
+        display: flex;
+    }
+
+    .gnb-contianer {
+        display: none;
+    }
+
+    .gnb-sub {
+        height: 100%;
+    }
+
+    .gub-sub_lnb-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .gub-sub_lnb h3 {
+        margin: 10px 0;
+    }
+
+    .gub-sub_lnb-container ul {
+        margin: 0;
+    }
+
+    .gub-sub_lnb li a {
+        padding: 10px;
+    }
+
+    .gub-sub_lnb:last-child {
+        margin-bottom: 30px;
+    }
+
+    /* main section */
+    .main-home {
+        padding: 0;
+    }
+
+    .main-container {
+        padding: 0 20px;
+    }
+
+    .main-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-content a {
+        padding: 10px 30px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    /* about section */
+    .about {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .about-container {
+        line-height: 2rem;
+        padding: 0;
+    }
+
+    .about-content-locate {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .about-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .about-container p {
+        font-size: 15px;
+    }
+
+    .common-about-content-locate {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .common-about-content-locate:first-child {
+        margin-right: 0;
+    }
+
+    .common-about-content-locate:last-child {
+        margin-bottom: 0;
+    }
+
+    /*games section */
+    .riot-games {
+        padding: 20px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .riot-games h1 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .riot-games-content {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .val,
+    .runeterra {
+        background-position: center top;
+    }
+
+    /* contact section */
+    .riot-contact {
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .riot-contact-container {
+        flex-direction: column;
+    }
+
+    .riot-contact-text {
+        width: 100%;
+        padding: 20px 20px 0 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .riot-contact-text h1 {
+        font-size: 1.4rem;
+    }
+
+    .riot-contact-text p {
+        font-size: 14px;
+        line-height: 2rem;
+    }
+
+    .riot-contact-text a {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .riot-contact-image {
+        width: 100%;
+    }
+
+    /* footer section */
+    footer {
+        display: none;
+    }
+
+    responsive-footer {
+        display: flex;
+        text-align: center;
+    }
+
+    .responsive-footer-container {
+        padding: 20px;
+    }
+
+    .responsive-footer-content-top {
+        flex-direction: column;
+    }
+
+    .responsive-footer-top-link-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive-footer-top-sns {
+        margin-top: 12px;
+    }
+
+    .responsive-footer-bottom-copyright {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .inner {
+        width: 100%;
+    }
+
+    /*header section */
+    res-header {
+        display: flex;
+    }
+
+    .gnb-contianer {
+        display: none;
+    }
+
+    .res-modal-background {
+        display: flex;
+    }
+
+    .gnb-sub {
+        height: 100%;
+    }
+
+    .gub-sub_lnb-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .gub-sub_lnb h3 {
+        margin: 10px 0;
+    }
+
+    .gub-sub_lnb-container ul {
+        margin: 0;
+    }
+
+    .gub-sub_lnb li a {
+        padding: 10px;
+    }
+
+    .gub-sub_lnb:last-child {
+        margin-bottom: 30px;
+    }
+
+    /* main section */
+    .main-home {
+        padding: 0;
+    }
+
+    .main-container h1 {
+        font-size: 1.8rem;
+    }
+
+    /* about section */
+    .about {
+        padding: 20px;
+    }
+
+    .about-container {
+        padding: 0;
+    }
+
+    .about-container h1 {
+        font-size: 1.7rem;
+    }
+
+    .about-container p {
+        font-size: 19px;
+    }
+
+    .common-about-content-locate:first-child {
+        margin-right: 50px;
+    }
+
+    /*games section */
+    .riot-games {
+        padding: 20px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .riot-games h1 {
+        font-size: 1.7rem;
+    }
+
+    .riot-games-content {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .val,
+    .runeterra {
+        background-position: center top;
+    }
+
+    /* contact section */
+    .riot-contact {
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .riot-contact-container {
+        flex-direction: column;
+    }
+
+    .riot-contact-text {
+        width: 100%;
+        text-align: center;
+        padding: 20px 20px 0 20px;
+        margin: 0;
+    }
+
+    .riot-contact-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .riot-contact-text p {
+        font-size: 18px;
+        line-height: 2.5rem;
+    }
+
+    .riot-contact-text a {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* footer section */
+    footer {
+        display: none;
+    }
+
+    responsive-footer {
+        display: flex;
+        text-align: center;
+    }
+
+    .responsive-footer-container {
+        padding: 20px;
+    }
+
+    .responsive-footer-content-top {
+        flex-direction: column;
+    }
+
+    .responsive-footer-top-link-box ul li {
+        margin-right: 15px;
+    }
+
+    .responsive-footer-top-link-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .responsive-footer-top-sns {
+        margin-top: 15px;
+    }
+
+    .responsive-footer-bottom-copyright {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+
+    /* main section */
+    .main-home {
+        padding: 0;
+    }
+
+    .main-container {
+        padding: 0 20px;
+    }
+
+    /* about section */
+    .about-container h1 {
+        font-size: 2.4rem;
+    }
+
+    .about-container p {
+        font-size: 22px;
+    }
+
+    /* games section */
+    .riot-games {
+        padding: 30px 70px;
+    }
+
+    .riot-games h1 {
+        font-size: 2rem;
+    }
+
+    /* contact section */
+    .riot-contact {
+        padding: 30px 70px;
+    }
+
+    .riot-contact-text h1 {
+        font-size: 2rem;
+    }
+
+    .riot-contact-text p {
+        line-height: 2.5rem;
+        font-size: 18px;
+
+    }
+
+    /*footer section */
+    footer {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .inner {
+        max-width: 1400px;
+    }
+}

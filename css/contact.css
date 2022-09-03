@@ -1,0 +1,67 @@
+.riot-contact {
+    margin-top: 150px;
+    padding: 30px 100px;
+    background-color: rgb(250, 250, 250);
+}
+
+.riot-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.riot-contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+    flex: 1;
+}
+
+.riot-contact-text h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.riot-contact-text h1 br {
+    display: none;
+}
+
+.riot-contact-text p {
+    line-height: 3rem;
+    font-size: 21px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.riot-contact-text p br {
+    display: none;
+}
+
+.riot-contact-text a {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: crimson;
+    margin-top: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.riot-contact-text a:hover {
+    background-color: rgb(240, 41, 81);
+    box-shadow: rgba(240, 23, 66, 0.2) 0px 7px 29px 0px;
+}
+
+.riot-contact-image {
+    display: flex;
+    flex: 1;
+}
+
+.riot-contact-image img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,85 @@
+.riot-games {
+    margin-top: 150px;
+    padding: 30px 100px;
+    background-color: rgb(250, 250, 250);
+}
+
+.riot-games h1 {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.riot-games-content {
+    font-family: 'Hahmlet', serif;
+    display: flex;
+}
+
+.riot-game-box {
+    position: relative;
+    z-index: 3;
+    flex: 1;
+    height: 600px;
+    transition: 1s;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.riot-game-box a {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+}
+
+.riot-game-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-image: linear-gradient(60deg, rgba(41, 50, 60, 0.7) 0%, rgba(72, 85, 99, 0.7) 100%);
+    transition: 0.3s;
+}
+
+.riot-game-box span {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.riot-game-box:hover {
+    flex: 2;
+}
+
+.riot-game-box:hover .riot-game-text {
+    height: 80px;
+}
+
+.lol {
+    background-image: url(../imgs/lol.jpg);
+}
+
+.val {
+    background-image: url(../imgs/val.png);
+}
+
+.wildrift {
+    background-image: url(../imgs/lol-wildrift.png);
+}
+
+.runeterra {
+    background-image: url(../imgs/legends-of-runeterra.png);
+}
+
+.teamfight {
+    background-image: url(../imgs/tft.jpg);
+}

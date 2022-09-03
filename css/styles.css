@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "./header.css";
+@import "./main.css";
+@import "./aboutme.css";
+@import "./games.css";
+@import "./contact.css";
+@import "./footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.responsive-inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  height: 1px;
+  border: none;
+  background-color: #ffffff;
+}
