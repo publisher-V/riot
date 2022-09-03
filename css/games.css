@@ -24,6 +24,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .riot-game-box a {
@@ -41,12 +42,14 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    text-align: center;
+    left: 0;
     bottom: 0;
     width: 100%;
-    height: 0;
-    overflow: hidden;
+    height: 80px;
     background-image: linear-gradient(60deg, rgba(41, 50, 60, 0.7) 0%, rgba(72, 85, 99, 0.7) 100%);
     transition: 0.3s;
+    transform: translateY(100%);
 }
 
 .riot-game-box span {
@@ -61,7 +64,7 @@
 }
 
 .riot-game-box:hover .riot-game-text {
-    height: 80px;
+    transform: translateY(0);
 }
 
 .lol {
