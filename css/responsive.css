@@ -45,6 +45,11 @@
         margin-bottom: 30px;
     }
 
+    res-header.change .drawer-search input {
+        border-radius: 10px;
+        border-bottom: none;
+    }
+
     /* main section */
     .main-home {
         padding: 0;
@@ -245,6 +250,11 @@
         margin-bottom: 30px;
     }
 
+    res-header.change .drawer-search input {
+        border-radius: 10px;
+        border-bottom: none;
+    }
+
     /* main section */
     .main-home {
         padding: 0;
@@ -434,6 +444,11 @@
 
     .gub-sub_lnb:last-child {
         margin-bottom: 30px;
+    }
+
+    res-header.change .drawer-search input {
+        border-radius: 10px;
+        border-bottom: none;
     }
 
     /* main section */

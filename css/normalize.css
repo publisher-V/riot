@@ -37,6 +37,10 @@ a:visited {
   color: #000000;
 }
 
+a:link {
+  color: #000000;
+}
+
 li {
   list-style: none;
 }
